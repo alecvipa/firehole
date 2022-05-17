@@ -1,0 +1,106 @@
+
+.fonts3{
+    font-family: 'Nunito Sans', sans-serif !important;
+
+}
+.footer{
+    padding-top: 3%;
+    margin-top: -10%;
+}
+.pointer {
+    cursor: pointer;
+}
+.navBar{
+    background-color: black;
+    color: white;
+}
+.bannerDivInicio{
+    height: 40rem;
+    background-image: url("/assets/images/fireholeBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 140%;
+}
+.nosotrosSomos{
+    margin-top: -3%;
+}
+.bannerSpace{
+    height: 16rem;
+    background-image: url("/assets/images/bannerSpace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.privacidadBanner{
+    height: 16rem;
+    background-image: url("/assets/images/bannerSpace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+
+}
+.tablePrivacidad{
+    margin-bottom: 15%;
+}
+.divCatchUp{
+    padding-top: 3%;
+    margin-top: -3%;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.imageLogoInicio{
+   width: 7rem;
+   margin-bottom: 10%;
+}
+.nav-link:hover{
+    color:  #fbcb43 !important;
+}
+.construc{
+    margin-top: -10%;
+}
+
+@media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+@media(max-width:991px){
+    .construc{
+        margin-top: -60%;
+    }
+    .imageLogoInicio{
+        width: 30%;
+        margin-bottom: -3%;
+        margin-left: -3%;
+    }
+    .bannerDivInicio{
+        height: 32rem;
+        background-image: url("/assets/images/fireholeBannerCel.jpg");
+        background-position: 25% 62%;
+    }
+    .divCatchUp{
+        display: none;
+    }
+    .footer{
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #contacto{
+        margin-top: -30%;
+        margin-bottom: -30%;
+    }
+    .responsiveMarginCard{
+        margin-top: 5%;
+    }
+}
