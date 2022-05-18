@@ -5,7 +5,7 @@
 }
 .footer{
     padding-top: 3%;
-    margin-top: -10%;
+
 }
 .pointer {
     cursor: pointer;
@@ -54,7 +54,7 @@
     color: white !important;
 }
 .imageLogoInicio{
-   width: 7rem;
+   width: 6rem;
    margin-bottom: 10%;
 }
 .nav-link:hover{
@@ -63,8 +63,33 @@
 .construc{
     margin-top: -10%;
 }
+.construcDescanso2{
+    height: 10rem;
+    background-image: url("/assets/images/construccionImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 43%;
+}
+.cardNosotrosDiv1{
+    background-color: #fbcb43 !important;
+    border-radius: 0px !important;
+    font-weight: bolder !important;
+}
+.img-casco2{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (min-width: 992px) {
+    .quieneSomosTitle{
+        margin-top: -6%;
+    }
+    
     .rounded-tr-lg-0 {
         border-top-right-radius: 0;
     }
@@ -75,6 +100,18 @@
 }
 
 @media(max-width:991px){
+    .contentValores{
+        margin-top: 5%;
+        padding: 2%;
+    }
+    .img-casco2{
+        display: none;
+    }
+    .cardNosotrosDiv1{
+        width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .construc{
         margin-top: -60%;
     }
