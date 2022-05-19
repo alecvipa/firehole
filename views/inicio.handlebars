@@ -43,15 +43,16 @@
     <div class="bannerDivInicio">
 
     </div>
-    <div data-draggable="true" style="position: relative;">
+    <div data-draggable="true" style="position: relative;" class="quienesSomosDiv">
         <!---->
         <!---->
         <section draggable="false" class="container pt-5" data-v-271253ee="">
             <section class="mb-10">
                 <div class="d-flex justify-content-center">
                     <div class="text-center" style="max-width: 700px">
-                        <h2 class="fw-bold mb-4 text-black quieneSomosTitle">¿Quienes somos?</h2>
-                        <p class="text-black mb-5">Somos una empresa constructora con la tecnología más avanzada para
+                        <h2 class="fw-bold mb-4 text-white quieneSomosTitle">¿Quienes somos?</h2>
+                        <hr class="text-white">
+                        <p class="text-white mb-5">Somos una empresa constructora con la tecnología más avanzada para
                             aplicarla a cualquier ramo de la construcción. Nuestro equipo está conformado por los
                             mejores arquitectos e ingenieros civiles para lograr proyectos de la más alta calidad.</p>
                     </div>
@@ -101,7 +102,7 @@
         </section>
         <!---->
     </div>
-    <div class="divNosotros">
+    <div class="divNosotros" id="nosotros">
         <div class="construcDescanso2">
 
         </div>
@@ -110,14 +111,15 @@
                 <div class="col-md-6">
                     <div class="card cardNosotrosDiv1">
                         <div class="card-body text-danger">
-                            <h5 class="card-title">¿Por qué nosotros?</h5>
+                            <h3 class="card-title">¿Por qué nosotros?</h3>
+                            <hr class="text-black">
 
                             <p class="card-text">Cumplimos con las normas y reglamentos nacionales para el desarrollo y
                                 ejecución de proyectos de esta naturaleza. Te garantizamos que en la ejecución de la
                                 obra, la calidad de los materiales y el diseño de la construcción cumplen con lo
                                 establecido en cada proyecto.</p>
-                            <a href="#servicios" class="card-link text-muted">Servicios</a>
-                            <a href="#contacto" class="card-link text-muted">Contacto</a>
+                            <a href="#servicios" class="card-link text-muted cardLinkNosotros">Servicios</a>
+                            <a href="#contacto" class="card-link text-muted cardLinkNosotros">Contacto</a>
                         </div>
                     </div> <br> <br>
                     <h3>Nuestros valores:</h3> <br>
@@ -127,11 +129,11 @@
                                 <a class="list-group-item list-group-item-action active px-3 border-0  list-group-item-warning"
                                     id="list-home-list" data-mdb-toggle="list" href="#list-home" role="tab"
                                     aria-controls="list-home">Compromiso</a>
-                                <a class="list-group-item list-group-item-action px-3 border-0 list-group-item-warning" id="list-profile-list"
-                                    data-mdb-toggle="list" href="#list-profile" role="tab"
+                                <a class="list-group-item list-group-item-action px-3 border-0 list-group-item-warning"
+                                    id="list-profile-list" data-mdb-toggle="list" href="#list-profile" role="tab"
                                     aria-controls="list-profile">Lealtad</a>
-                                <a class="list-group-item list-group-item-action px-3 border-0 list-group-item-warning" id="list-messages-list"
-                                    data-mdb-toggle="list" href="#list-messages" role="tab"
+                                <a class="list-group-item list-group-item-action px-3 border-0 list-group-item-warning"
+                                    id="list-messages-list" data-mdb-toggle="list" href="#list-messages" role="tab"
                                     aria-controls="list-messages">Trabajo en equipo</a>
 
                             </div>
@@ -163,6 +165,71 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div id="servicios">
+        <div class="bannerServiciosInicio">
+
+        </div>
+        <div data-draggable="true" style="position: relative;">
+            <!---->
+            <!---->
+            <section draggable="false" class="container pt-5" data-v-271253ee="">
+                <section class="mb-10 text-center">
+                    <br> <br>
+                    <div class="row gx-lg-5">
+                        <div class="col-lg-4 col-md-12 mb-6 mb-lg-0">
+                            <div class="card shadow-2-strong">
+                                <div class="bg-image hover-overlay ripple shadow-4-strong rounded mx-3"
+                                    data-mdb-ripple-color="light" style="margin-top: -15px"> <img
+                                        src="assets/images/expertos.jpg" class="img-fluid"
+                                        alt="" aria-controls="#picker-editor"> </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Procesos y asesorías</h5>
+                                    <p class="card-text">Te ofrecemos las herramientas necesarias para poder llevar a
+                                        cabo tu plan requerido, nos acoplamos a tus ideas. Te podemos asesorar con la
+                                        planeación, equipo profesional, diseños a la medida, trámites legales y
+                                        cualquier tipo de cálculo que requieras.</p> <a href="#contacto"
+                                        class="btn  btn-dark btn-rounded" aria-controls="#picker-editor">Saber Más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-6 mb-lg-0">
+                            <div class="card shadow-2-strong">
+                                <div class="bg-image hover-overlay ripple shadow-4-strong rounded mx-3"
+                                    data-mdb-ripple-color="light" style="margin-top: -15px"> <img
+                                        src="assets/images/residente.jpg" class="img-fluid"
+                                        alt="" aria-controls="#picker-editor"> </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Construcciones no residenciales, residenciales <br> o
+                                        trabajos de
+                                        ingeniería civil</h5>
+                                    <p class="card-text">Planeamos, diseñamos, organizamos y construimos con los mejores
+                                        materiales y de la más alta calidad.</p> <a href="#contacto"
+                                        class="btn  btn-dark btn-rounded" aria-controls="#picker-editor">Saber más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-6 mb-lg-0">
+                            <div class="card shadow-2-strong">
+                                <div class="bg-image hover-overlay ripple shadow-4-strong rounded mx-3"
+                                    data-mdb-ripple-color="light" style="margin-top: -15px"> <img
+                                        src="assets/images/asesor.jpg" class="img-fluid"
+                                        alt="" aria-controls="#picker-editor"> </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Restauración y trabajo de mantenimiento</h5>
+                                    <p class="card-text">Nos encargamos de conservar tu inmueble como construcción de
+                                        caminos, remodelaciones en general, sin importar el material con el que este
+                                        hecho.
+                                    </p> <a href="#contacto" class="btn  btn-dark btn-rounded"
+                                        aria-controls="#picker-editor">Saber más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!---->
         </div>
     </div>
 

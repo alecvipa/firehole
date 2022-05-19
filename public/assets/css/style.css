@@ -71,6 +71,15 @@
     background-size: cover;
     background-position: 25% 43%;
 }
+.bannerServiciosInicio{
+    height: 25rem;
+    background-image: url("/assets/images/bannerServiciosFireH.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 47%;
+
+}
 .cardNosotrosDiv1{
     background-color: #fbcb43 !important;
     border-radius: 0px !important;
@@ -83,6 +92,14 @@
     display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.quienesSomosDiv{
+    background-color: grey;
+    margin-top: -10%;
+    padding-top: 3%;
+}
+.cardLinkNosotros:hover{
+    color: black !important;
 }
 
 @media (min-width: 992px) {
@@ -100,6 +117,15 @@
 }
 
 @media(max-width:991px){
+    .bannerServiciosInicio{
+        height: 15rem;
+        background-image: url("/assets/images/bannerServiciosFireH.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 47%;
+    
+    }
     .contentValores{
         margin-top: 5%;
         padding: 2%;
