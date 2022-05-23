@@ -36,12 +36,15 @@
 }
 .privacidadBanner{
     height: 16rem;
-    background-image: url("/assets/images/bannerSpace.jpg");
+    background-image: url("/assets/images/fireholeBanner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5%;
 
+}
+.form-check-input{
+    background-color: black !important;
 }
 .tablePrivacidad{
     margin-bottom: 15%;
@@ -103,8 +106,16 @@
 }
 
 @media (min-width: 992px) {
+    .bannerDivInicio{
+        height: 43rem;
+    }
+    .footer{
+        margin-top: -9%;
+        padding-bottom: 2%;
+    }
     .quieneSomosTitle{
         margin-top: -6%;
+        font-size: 3rem;
     }
     
     .rounded-tr-lg-0 {
@@ -117,6 +128,9 @@
 }
 
 @media(max-width:991px){
+    .quieneSomosTitle{
+        font-size: 36px;
+    }
     .bannerServiciosInicio{
         height: 15rem;
         background-image: url("/assets/images/bannerServiciosFireH.jpg");
@@ -158,10 +172,6 @@
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 3%;
-    }
-    #contacto{
-        margin-top: -30%;
-        margin-bottom: -30%;
     }
     .responsiveMarginCard{
         margin-top: 5%;
